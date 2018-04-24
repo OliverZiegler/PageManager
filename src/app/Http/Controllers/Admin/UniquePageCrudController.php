@@ -54,6 +54,7 @@ class UniquePageCrudController extends CrudController
         }
 
         $this->uniqueSetup($entry);
+        $this->crud->entry = $entry;
 
         return parent::edit($entry->id);
     }
