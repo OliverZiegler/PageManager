@@ -6,7 +6,7 @@ use App\UniquePages;
 use Illuminate\Http\Request;
 use Backpack\PageManager\app\TraitReflections;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
-use Backpack\CRUD\app\Http\Controllers\CrudFeatures\SaveActions;
+use Backpack\CRUD\app\Http\Controllers\Operations\SaveActions;
 
 class UniquePageCrudController extends CrudController
 {
